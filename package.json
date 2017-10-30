@@ -9,7 +9,8 @@
     "build": "gulp build",
     "build-preview": "gulp build-preview",
     "start": "gulp server",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "yamllint": "yamllint site/static/admin/config.yml"
   },
   "author": "",
   "license": "MIT",
@@ -40,5 +41,8 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
     "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "yaml-lint": "^1.0.0"
   }
 }
